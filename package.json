@@ -1,5 +1,5 @@
 {
-  "name": "pnpm-peerDependencies-bug",
+  "name": "my-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "loldash": "npm:lodash"
+    "@legacy-org-scope/package": "npm:@new-org-scope/package@1.0.0",
+    "loldash": "npm:lodash-es@^4"
   }
 }
